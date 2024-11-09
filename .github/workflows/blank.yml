@@ -37,4 +37,6 @@ jobs:
       - name: Run AddDpendancy
         run: npm install htmlhint --save   
       - name: Run gitactionmain.html
-        run: npx htmlhint gitactionmain.html
+        run: |
+          npx htmlhint gitactionmain.html
+          npx htmlhint index.html
